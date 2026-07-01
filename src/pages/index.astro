@@ -1,11 +1,869 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getLatestPosts } from "../data/blog-posts";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const latestPosts = getLatestPosts(3);
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout
+  title="China Small Kitchen Appliance Manufacturer for B2B OEM & ODM Buyers"
+  description="YOLEC Electric manufactures electric kettles, rice cookers, pressure cookers and portable lunch boxes for B2B buyers, importers and private label brands."
+>
+
+<section class="hero">
+  <div class="container">
+    <h1>China Small Kitchen Appliance Manufacturer for B2B Buyers</h1>
+
+    <p>
+      <strong>YOLEC Electric supplies OEM and ODM electric kettles, rice cookers,
+      pressure cookers and portable lunch boxes for importers, distributors,
+      retailers and private label appliance brands.</strong>
+    </p>
+
+    <a href="https://www.yolec-electronics.com/contact/" class="btn">
+      Request a Quote
+    </a>
+  </div>
+</section>
+<section class="why">
+  <div class="container">
+
+    <h2>Why B2B Procurement Teams Choose YOLEC</h2>
+
+    <p class="section-desc">
+      A direct China factory partner for small kitchen appliance sourcing,
+      private label projects and repeat purchase programs.
+    </p>
+
+    <div class="why-grid">
+
+      <div class="why-card">
+        <h3>Factory Established in 2015</h3>
+        <p>Stable small kitchen appliance manufacturing experience for overseas B2B orders.</p>
+      </div>
+
+      <div class="why-card">
+        <h3>200+ Skilled Workers</h3>
+        <p>Production, engineering and QC teams support sample approval and mass production.</p>
+      </div>
+
+      <div class="why-card">
+        <h3>3 Production Lines</h3>
+        <p>Reliable capacity for electric kettles, rice cookers, pressure cookers and lunch boxes.</p>
+      </div>
+
+      <div class="why-card">
+        <h3>Independent QC</h3>
+        <p>Incoming material, production line and final shipment inspections for lower sourcing risk.</p>
+      </div>
+
+      <div class="why-card">
+        <h3>OEM & ODM Support</h3>
+        <p>Logo, color, packaging, specification and product structure customization.</p>
+      </div>
+
+      <div class="why-card">
+        <h3>Export Documents</h3>
+        <p>CE, RoHS, LFGB and factory documents available based on product and market needs.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="products">
+
+  <div class="container">
+
+    <h2>Small Kitchen Appliances We Manufacture</h2>
+
+    <p class="section-desc">
+      Focused product lines for B2B sourcing managers who need stable supply,
+      private label flexibility and practical factory communication.
+    </p>
+
+    <div class="product-grid">
+
+      <a href="/products/electric-kettle" class="product-card">
+        <h3>Electric Kettles</h3>
+        <p>Glass, stainless steel and plastic electric kettles for retail and brand programs.</p>
+      </a>
+
+      <a href="/products/rice-cooker" class="product-card">
+        <h3>Rice Cookers</h3>
+        <p>Compact and multifunction rice cookers with OEM color, logo and packaging options.</p>
+      </a>
+
+      <a href="/products/pressure-cooker" class="product-card">
+        <h3>Pressure Cookers</h3>
+        <p>Electric pressure cookers and multi-cookers for household appliance buyers.</p>
+      </a>
+
+      <a href="/products/lunch-box" class="product-card">
+        <h3>Portable Lunch Boxes</h3>
+        <p>Electric lunch boxes and portable food warmers for regional distributors and retailers.</p>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+<section class="factory">
+
+  <div class="container factory-grid">
+
+    <div class="factory-text">
+
+      <h2>Direct Factory Supply for B2B Appliance Sourcing</h2>
+
+      <p>
+        YOLEC Electric is a China-based OEM and ODM manufacturer established in 2015,
+        specializing in practical small kitchen appliances for importers, distributors,
+        online sellers and private label brands.
+      </p>
+
+      <ul>
+
+        <li>✓ Around 200 skilled employees</li>
+
+        <li>✓ 3 efficient production lines</li>
+
+        <li>✓ In-house metal stamping workshop</li>
+
+        <li>✓ In-house injection molding workshop</li>
+
+        <li>✓ Independent R&D and QC teams</li>
+
+        <li>✓ Export-ready support for CE, RoHS and LFGB requirements</li>
+
+      </ul>
+
+      <a href="https://www.yolec-electronics.com/about/" class="btn">
+        Explore Our Factory
+      </a>
+
+    </div>
+
+    <div class="factory-image">
+
+      <img src="/images/factory.jpg" alt="Factory Image" class="factory-image-img" />
+
+    </div>
+
+  </div>
+
+</section>
+<section class="oem">
+
+  <div class="container">
+
+    <h2>OEM & ODM Services for Appliance Brands</h2>
+
+    <p class="section-desc">
+      From supplier evaluation to repeat orders, we help procurement teams reduce
+      project risk and move from sample confirmation to shipment efficiently.
+    </p>
+
+    <div class="oem-grid">
+
+      <div class="oem-card">
+        <h3>Private Label Setup</h3>
+        <p>Logo printing, color matching, packaging files and brand-ready appliance solutions.</p>
+      </div>
+
+      <div class="oem-card">
+        <h3>Product Customization</h3>
+        <p>Specification, material, control panel and accessory adjustments by product type.</p>
+      </div>
+
+      <div class="oem-card">
+        <h3>Sampling & Approval</h3>
+        <p>Clear sampling process for procurement, quality and category management teams.</p>
+      </div>
+
+      <div class="oem-card">
+        <h3>Mass Production</h3>
+        <p>Stable batch production, inspection and export packing before shipment.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<section class="certificates">
+
+  <div class="container">
+
+    <h2>Quality Standards for Global Buyers</h2>
+
+    <p class="section-desc">
+      We support documentation and compliance needs commonly requested by
+      appliance importers, retailers and professional procurement teams.
+    </p>
+
+    <div class="cert-grid">
+
+      <div class="cert-card">
+        <h3>CE</h3>
+        <p>Support for European market safety requirements.</p>
+      </div>
+
+      <div class="cert-card">
+        <h3>RoHS</h3>
+        <p>Material compliance support for regulated markets.</p>
+      </div>
+
+      <div class="cert-card">
+        <h3>LFGB</h3>
+        <p>Food contact material support for kitchen appliance products.</p>
+      </div>
+
+      <div class="cert-card">
+        <h3>SGS Factory</h3>
+        <p>Factory capability documents available for buyer review.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<section class="blog">
+
+  <div class="container">
+
+    <h2>Latest Insights</h2>
+
+    <p class="section-desc">
+      Learn more about OEM manufacturing, sourcing tips and kitchen appliance industry trends.
+    </p>
+
+    <div class="blog-grid">
+
+      {
+        latestPosts.map((post) => (
+          <a href={`/blog/${post.slug}`} class="blog-card">
+            <h3>{post.title}</h3>
+            <p>{post.description}</p>
+          </a>
+        ))
+      }
+
+    </div>
+
+  </div>
+
+</section>
+<section class="cta">
+
+  <div class="container">
+
+    <h2>Ready to Source Small Kitchen Appliances from China?</h2>
+
+    <p>
+      Send your target product, quantity, market requirements and packaging needs.
+      Our team will help you evaluate electric kettles, rice cookers, pressure cookers
+      and portable lunch boxes for your next purchasing plan.
+    </p>
+
+    <div class="cta-features">
+
+      <span>✓ Fast Quotation</span>
+
+      <span>✓ OEM & ODM Support</span>
+
+      <span>✓ Factory Direct Supply</span>
+
+    </div>
+
+    <div class="cta-buttons">
+
+      <a href="https://www.yolec-electronics.com/contact/" class="btn">
+        Request a Quote
+      </a>
+
+      <a href="mailto:adrian@yolec-electronics.com" class="btn-outline">
+        Email Us
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+</BaseLayout>
+
+<style>
+.why{
+    padding:90px 20px;
+    background-image: url('/images/gooseneck-coffee-kettle.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.why::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.7);
+}
+
+.why .container{
+    position: relative;
+    z-index: 1;
+}
+
+.why h2{
+
+    text-align:center;
+
+    margin-bottom:18px;
+
+}
+
+.section-desc{
+
+    text-align:center;
+
+    max-width:700px;
+
+    margin:0 auto 60px;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+}
+
+.why-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.05);
+
+}
+
+.why-card h3{
+
+    margin-bottom:12px;
+
+}
+.hero{
+    padding:110px 20px;
+    text-align:center;
+    background:
+        linear-gradient(rgba(0,0,0,0.52), rgba(0,0,0,0.52)),
+        url('/images/yolec-electric.png') center/cover no-repeat;
+    position:relative;
+    overflow:hidden;
+}
+
+.hero::before{
+    display:none;
+}
+
+.hero .container{
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1{
+    color:#fff;
+}
+
+.hero p{
+    color:rgba(255,255,255,0.9);
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
+    font-size:52px;
+    line-height:1.2;
+    margin-bottom:30px;
+}
+
+p{
+    font-size:20px;
+    color:#666;
+    margin-bottom:40px;
+}
+
+.btn{
+    display:inline-block;
+    background:#0070f3;
+    color:white;
+    text-decoration:none;
+    padding:16px 34px;
+    border-radius:8px;
+}
+.products{
+    padding:90px 20px;
+    background-image: url('/images/electric-kettle-manufacturer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.products::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.7);
+}
+
+.products .container{
+    position: relative;
+    z-index: 1;
+}
+
+.products h2{
+
+    text-align:center;
+
+    margin-bottom:18px;
+
+}
+
+.product-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:28px;
+
+    margin-top:60px;
+
+}
+
+.product-card{
+
+    background:white;
+
+    border:1px solid #ececec;
+
+    border-radius:12px;
+
+    padding:35px;
+
+    text-decoration:none;
+
+    color:#222;
+
+    transition:.3s;
+
+}
+
+.product-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+}
+
+.product-card h3{
+
+    margin-bottom:15px;
+
+}
+.factory{
+
+    padding:100px 20px;
+
+    background:#f8f9fb;
+
+}
+
+.factory-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+.factory-text h2{
+
+    margin-bottom:25px;
+
+}
+
+.factory-text p{
+
+    margin-bottom:25px;
+
+}
+
+.factory-text ul{
+
+    margin-bottom:35px;
+
+    padding-left:20px;
+
+}
+
+.factory-text li{
+
+    margin-bottom:14px;
+
+}
+
+.factory-image-img{
+    width:100%;
+    height:420px;
+    object-fit:cover;
+    border-radius:16px;
+}
+.oem{
+
+    padding:100px 20px;
+
+}
+
+.oem h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.oem-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:24px;
+
+    margin-top:60px;
+
+}
+
+.oem-card{
+
+    border:1px solid #ececec;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    transition:.3s;
+
+}
+
+.oem-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.oem-card h3{
+
+    margin-bottom:15px;
+
+}
+.certificates{
+
+    padding:100px 20px;
+
+    background:#f8f9fb;
+
+}
+
+.certificates h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.cert-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:24px;
+
+    margin-top:60px;
+
+}
+
+.cert-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.05);
+
+}
+
+.cert-card h3{
+
+    font-size:28px;
+
+    margin-bottom:15px;
+
+}
+.blog{
+
+    padding:100px 20px;
+
+}
+
+.blog h2{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+.blog-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:28px;
+
+    margin-top:60px;
+
+}
+
+.blog-card{
+
+    background:#fff;
+
+    border:1px solid #ececec;
+
+    border-radius:12px;
+
+    padding:35px;
+
+    text-decoration:none;
+
+    color:#222;
+
+    transition:.3s;
+
+}
+
+.blog-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.blog-card h3{
+
+    margin-bottom:18px;
+
+    font-size:24px;
+
+}
+.cta{
+
+    padding:110px 20px;
+
+    text-align:center;
+
+    background:#0f172a;
+
+    color:white;
+
+}
+
+.cta h2{
+
+    margin-bottom:25px;
+
+    color:white;
+
+}
+
+.cta p{
+
+    max-width:760px;
+
+    margin:0 auto 40px;
+
+    color:#d1d5db;
+
+}
+
+.cta-features{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+    margin-bottom:45px;
+
+    flex-wrap:wrap;
+
+}
+
+.cta-features span{
+
+    font-weight:600;
+
+}
+
+.cta-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn-outline{
+
+    display:inline-block;
+
+    padding:16px 36px;
+
+    border:2px solid white;
+
+    border-radius:8px;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+/* Mobile styles */
+@media (max-width: 768px){
+    h1{
+        font-size:36px;
+    }
+    
+    h2{
+        font-size:28px;
+    }
+    
+    h3{
+        font-size:20px;
+    }
+    
+    .hero{
+        padding:90px 15px;
+    }
+    
+    .why, .products, .factory, .oem, .certificates, .blog{
+        padding:60px 15px;
+    }
+    
+    .why-grid, .product-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+    
+    .oem-grid{
+        grid-template-columns:repeat(2, 1fr);
+        gap:15px;
+    }
+    
+    .cert-grid{
+        grid-template-columns:repeat(2, 1fr);
+        gap:15px;
+    }
+    
+    .blog-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+    
+    .factory-grid{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+    
+    .factory-image-img{
+        height:300px;
+    }
+    
+    .cta-features{
+        gap:20px;
+    }
+    
+    .cta-buttons{
+        flex-direction:column;
+        gap:15px;
+    }
+    
+    .btn, .btn-outline{
+        width:100%;
+        text-align:center;
+    }
+}
+
+@media (max-width: 480px){
+    h1{
+        font-size:30px;
+    }
+    
+    h2{
+        font-size:24px;
+    }
+    
+    .oem-grid, .cert-grid{
+        grid-template-columns:1fr;
+    }
+    
+    .why-card, .product-card, .blog-card{
+        padding:25px;
+    }
+}
+</style>
