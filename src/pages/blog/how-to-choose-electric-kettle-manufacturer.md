@@ -96,3 +96,13 @@ For B2B buyers, supplier communication should be practical, accurate and consist
 When choosing an electric kettle manufacturer in China, evaluate the supplier's factory experience, product knowledge, OEM/ODM capability, quality control, certification support, packaging ability and communication style.
 
 YOLEC Electric manufactures electric kettles and other small kitchen appliances for B2B buyers, including rice cookers, pressure cookers and portable lunch boxes. If you are sourcing electric kettles for import, distribution or private label sales, send your target model, order quantity, market and packaging needs so our team can recommend a practical solution.
+
+---
+
+## Contact Us
+
+**Website:** https://www.yolec-electronics.com/
+
+**Email:** Adrian@yolec-electronics.com
+
+**YouTube:** https://www.youtube.com/@yolec-electric-adrian
