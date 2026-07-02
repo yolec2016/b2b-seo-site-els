@@ -8,13 +8,16 @@ interface Props {
 }
 
 const {
-  title = "China Small Kitchen Appliance Manufacturer | OEM & ODM",
-  description = "Professional China manufacturer of electric kettles, coffee kettles, rice cookers, pressure cookers and other small kitchen appliances."
+  title = "Китайский производитель мелкой кухонной техники | OEM и ODM",
+  description = "Китайский производитель электрических чайников, чайников для кофе, рисоварок, электрических скороварок и другой мелкой кухонной техники. OEM и ODM производство для международных B2B-покупателей."
 } = Astro.props;
+
+const canonical = Astro.url.href;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
 
     <meta charset="UTF-8" />
@@ -31,6 +34,100 @@ const {
         content={description}
     />
 
+    <!-- SEO -->
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+
+    <meta
+        name="keywords"
+        content="производитель мелкой кухонной техники, производитель бытовой техники Китай, OEM производитель, ODM производитель, электрические чайники, чайник для кофе, рисоварка, электрическая скороварка, ланч-бокс с подогревом, кухонная техника оптом, поставщик бытовой техники Китай"
+    />
+
+    <meta
+        name="author"
+        content="YOLEC Electric"
+    />
+
+    <meta
+        http-equiv="Content-Language"
+        content="ru"
+    />
+
+    <meta
+        name="theme-color"
+        content="#0070f3"
+    />
+
+    <!-- Canonical -->
+    <link
+        rel="canonical"
+        href={canonical}
+    />
+
+    <!-- hreflang -->
+    <link
+        rel="alternate"
+        hreflang="ru"
+        href={canonical}
+    />
+
+    <!-- Open Graph -->
+    <meta
+        property="og:type"
+        content="website"
+    />
+
+    <meta
+        property="og:locale"
+        content="ru_RU"
+    />
+
+    <meta
+        property="og:title"
+        content={title}
+    />
+
+    <meta
+        property="og:description"
+        content={description}
+    />
+
+    <meta
+        property="og:url"
+        content={canonical}
+    />
+
+    <meta
+        property="og:site_name"
+        content="YOLEC Electric"
+    />
+
+    <meta
+        property="og:image"
+        content="/images/yolec-electric.png"
+    />
+
+    <!-- Twitter -->
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    />
+
+    <meta
+        name="twitter:title"
+        content={title}
+    />
+
+    <meta
+        name="twitter:description"
+        content={description}
+    />
+
+    <meta
+        name="twitter:image"
+        content="/images/yolec-electric.png"
+    />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/global.css" />
 
 </head>

@@ -3,13 +3,13 @@
     <a href="/" class="logo">YOLEC</a>
 
     <nav>
-      <a href="/">Home</a>
-      <a href="https://www.yolec-electronics.com/products/">Products</a>
-      <a href="/oem">OEM & ODM</a>
-      <a href="https://www.yolec-electronics.com/contact/">Factory</a>
-      <a href="/blog">Blog</a>
+      <a href="/">Главная</a>
+      <a href="https://www.yolec-electronics.com/products/">Продукция</a>
+      <a href="/oem">OEM и ODM</a>
+      <a href="https://www.yolec-electronics.com/about/">О заводе</a>
+      <a href="/blog">Блог</a>
       <a href="/faq">FAQ</a>
-      <a href="https://www.yolec-electronics.com/contact/">Contact</a>
+      <a href="https://www.yolec-electronics.com/contact/">Запросить предложение</a>
     </nav>
   </div>
 </header>
@@ -45,6 +45,7 @@ nav a{
     text-decoration:none;
     color:#333;
     font-weight:500;
+    transition:.3s;
 }
 
 nav a:hover{
@@ -52,33 +53,33 @@ nav a:hover{
 }
 
 /* Mobile styles */
-@media (max-width: 768px){
+@media (max-width:768px){
     .container{
         flex-direction:column;
         gap:15px;
         padding:15px 20px;
     }
-    
+
     nav{
         flex-wrap:wrap;
         gap:15px;
         justify-content:center;
     }
-    
+
     nav a{
         font-size:14px;
     }
-    
+
     .logo{
         font-size:24px;
     }
 }
 
-@media (max-width: 480px){
+@media (max-width:480px){
     nav{
         gap:10px;
     }
-    
+
     nav a{
         font-size:13px;
     }
