@@ -207,6 +207,6 @@ If you're currently comparing electric kettle manufacturers for an upcoming OEM 
 
 **Website:** https://www.yolec-electronics.com/
 
-**Email:** adrian@yolec-electronics.com
+**Email:** Adrian@yolec-electronics.com
 
 **YouTube:** https://www.youtube.com/@yolec-electric-adrian
